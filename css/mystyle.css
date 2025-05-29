@@ -1,3 +1,10 @@
 :root {
-    --bs-primary: #3A445D
+    --bs-primary: #3A445D;
+    --bs-primary-rgb: 59, 69, 94;
+    --bs-link-color: #333;
+    --bs-link-hover-color: #FF5A5F;
+}
+.bg-primary {
+    --bs-bg-opacity:1;
+    background-color: rgbavar(--bs-primary-rgb), var(--bs-bg-opacity);
 }
