@@ -8,3 +8,6 @@
     --bs-bg-opacity:1;
     background-color: rgbavar(--bs-primary-rgb), var(--bs-bg-opacity);
 }
+.social-icons .social-icon:hover {
+  background-color: #FF5A5F;
+}
