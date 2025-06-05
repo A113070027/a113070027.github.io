@@ -4,10 +4,15 @@
     --bs-link-color: #333;
     --bs-link-hover-color: #FF5A5F;
 }
+<<<<<<< HEAD
 .bg-primary {
     --bs-bg-opacity:1;
     background-color: rgbavar(--bs-primary-rgb), var(--bs-bg-opacity);
 }
 .social-icons .social-icon:hover {
   background-color: #FF5A5F;
+=======
+.social-icons .social-icon:hover{
+    background-color: #FF5A5F;
+>>>>>>> 8947e9540dc048e33438d51f8b5faa349b2d353e
 }
