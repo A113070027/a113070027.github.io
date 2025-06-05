@@ -4,15 +4,45 @@
     --bs-link-color: #333;
     --bs-link-hover-color: #FF5A5F;
 }
-<<<<<<< HEAD
 .bg-primary {
     --bs-bg-opacity:1;
     background-color: rgbavar(--bs-primary-rgb), var(--bs-bg-opacity);
 }
 .social-icons .social-icon:hover {
   background-color: #FF5A5F;
-=======
-.social-icons .social-icon:hover{
-    background-color: #FF5A5F;
->>>>>>> 8947e9540dc048e33438d51f8b5faa349b2d353e
+}
+.backtotop {
+    width:100px;
+    height:100px;
+    line-height: 100px;
+    position:fixed;
+    bottom: 50px;
+    right:0;
+    text-align: center;
+}
+
+.backtotop a {
+    display: block;
+    background: #3A445D;
+    color:#eee;
+    border-radius: 50%;
+}
+
+.backtotop a:hover {
+    background: #FF5A5F;
+    color:#eee;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin:50px auto;  
+}
+
+.imgcontainer img {
+    height: 300px;
+    margin: 10px;
+    border-radius: 5%;
 }
